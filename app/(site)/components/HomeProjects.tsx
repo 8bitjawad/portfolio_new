@@ -36,7 +36,14 @@ export default function HomeProjects({ projects }: { projects: ProjectType[] }) 
             </h3>
 
             <p className="text-sm text-zinc-500 mt-1">
-              {project.tagline}
+            {project.tagline.map((tag, index) => (
+                <span 
+                key={index}
+                className="inline-block bg-zinc-800 text-white rounded-full px-3 py-1 text-xs font-medium mr-2 mb-2"
+                >
+                {tag}
+                </span>
+            ))}
             </p>
           </Link>
         ))}
