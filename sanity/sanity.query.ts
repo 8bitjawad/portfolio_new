@@ -64,3 +64,15 @@ export async function getSingleProject(slug: string) {
     { slug }
   );
 }
+
+export async function getHomeProjects() {
+  return client.fetch(
+    groq`*[_type == "project" && featured == true] | order(_createdAt desc) [0...3] {
+      _id,
+      name,
+      "slug": slug.current,
+      tagline,
+      coverImage { alt, "image": asset->url }
+    }`
+  );
+}

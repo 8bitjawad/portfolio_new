@@ -70,6 +70,12 @@ const project = {
       description: "Write a full description about this project",
       of: [{ type: "block" }],
     },
+    {
+    name: "featured",
+    title: "Featured Project",
+    type: "boolean",
+    description: "Show this project on the home page?"
+  }
   ],
 };
 
