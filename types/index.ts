@@ -43,3 +43,14 @@ export type ProjectType = {
   };
   description: PortableTextBlock[];
 };
+export type ProjectHomeType = {
+  _id: string;
+  name: string;
+  slug: string;
+  tagline: string;
+  coverImage: {
+    alt: string;
+    image: string;
+  };
+};
+
