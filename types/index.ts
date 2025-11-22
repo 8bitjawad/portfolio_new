@@ -34,7 +34,7 @@ export type ProjectType = {
   _id: string;
   name: string;
   slug: string;
-  tagline: string;
+  tagline: string[];
   projectUrl: string;
   logo: string;
   coverImage: {
@@ -47,7 +47,7 @@ export type ProjectHomeType = {
   _id: string;
   name: string;
   slug: string;
-  tagline: string;
+  tagline: string[];
   coverImage: {
     alt: string;
     image: string;

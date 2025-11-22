@@ -10,8 +10,8 @@ export default function HeroSvg() {
     >
       <defs>
         <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" stopColor="#7d0ad4ff" />
-          <stop offset="50%" stopColor="#6033E0" />
+          <stop offset="0%" stopColor="#ffffffff" />
+          <stop offset="50%" stopColor="#03000a08" />
           <stop offset="100%" stopColor="#1c1b24" />
         </linearGradient>
       </defs>
