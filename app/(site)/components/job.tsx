@@ -41,7 +41,9 @@ export default async function Job() {
               <small className="text-sm text-zinc-500 mt-2 tracking-widest uppercase">
                 {data.startDate.toString()} - {data.endDate.toString()}
               </small>
-              <p className="text-base text-black my-4">{data.description}</p>
+            <p className="text-base text-black my-4 whitespace-pre-line">
+              {data.description}
+            </p>
             </div>
           </div>
         ))}
