@@ -13,7 +13,7 @@ export default async function Project() {
           Featured projects I&apos;ve built over the years
         </h1>
         <p className="text-base text-black leading-relaxed">
-          I&apos;ve worked on several projects in full-stack development and AI but these
+          I&apos;ve worked on several projects in full-stack development and AIML but these
           are the ones that I&apos;m most proud of. My primary tech stack includes Django or Next.js/Typescript for full-stack development, PostgreSQL for Databases and Python for AIML.
         </p>
       </section>
